@@ -91,13 +91,77 @@ Every Programmer Should know these windows shortcuts. These Will increase your c
 
 
 
+## Browser Shortcut keys
 
-## Browsers Shortcuts
 
-1. Quickly reach to URL
-   **Window + L**
+1. **Ctrl + T**
 
-2. Quickly Search on Google
-   **Window + K**
+Open new Tab
 
-3.
+**Ctrl + Shift + T**
+
+Open Last closing Tab
+
+
+2. **Ctrl + Tab**
+
+Switch to next Tab
+
+**Ctrl + Shift + Tab**
+
+Switch to previous Tab
+
+
+3. **Ctrl + K**
+
+Go to google search
+
+4. **Ctrl + L**
+
+Go to  current URL of website.
+
+**Alt + Enter**
+
+Dublicate Current Tab
+
+5. **Ctrl + W**
+
+Close current Tab.
+
+**Ctrl + Shift + T**
+
+Open last Closing Tab.
+
+
+6. **Ctrl + Shift + I**
+
+Open Inspect
+
+**Ctrl + Shift + J**
+
+Open Console
+
+7. **Alt + Left** || **Alt + Right**
+
+Go Back - Go next 
+
+
+8. **Ctrl + F**
+
+Search
+
+
+9. **F11**
+
+Full Screen 
+
+10. **Ctrl + R**
+
+Reload
+
+11. **Ctrl + 1,3,4,7,8**
+
+Go To Specific Tab. 
+
+
+
