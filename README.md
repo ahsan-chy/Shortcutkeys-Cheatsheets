@@ -16,6 +16,8 @@ Table of content
 
 ## Window Shortcuts
 
+
+
 Every Programmer Should know these windows shortcuts. These Will increase your coding speed to next level
 
 1. **Window + V**
@@ -92,6 +94,8 @@ Every Programmer Should know these windows shortcuts. These Will increase your c
 
 
 ## Browser Shortcut keys
+
+![chrome shortcuts](https://github.com/ahsan-chy/Shortcuts-for-window/assets/85479513/bfcd48b9-b83a-4baa-a183-99543d1342bd)
 
 
 1. **Ctrl + T**
