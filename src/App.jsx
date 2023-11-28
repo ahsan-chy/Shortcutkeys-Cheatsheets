@@ -1,12 +1,12 @@
 import "./App.css";
-import VsCode from "./pages/VsCode";
+import Home from "./pages/Home";
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<VsCode />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </Router>
   );
