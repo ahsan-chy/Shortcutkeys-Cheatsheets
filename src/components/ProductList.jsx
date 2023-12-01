@@ -1,11 +1,13 @@
 import React from 'react'
 import Products from './Products';
 
-export default function ProductList({product}) {
-    console.log(product);
+export default function ProductList({Productprops}) {
+
   return (
-    <div>
-      <Products/>
-    </div>
+    Productprops.map(Parmeterproduct=>{
+     return   <Products  ProductDriling={Parmeterproduct}/>
+    })
+     
+ 
   )
 }

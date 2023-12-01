@@ -2,8 +2,9 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer  from '../components/Footer'
 import ProductList from '../components/ProductList'
+import AuthenticationApp from './AuthenticationApp'
 export default function Home() {
-  const Product=[
+  const Productobject=[
     {
     price:10500,
     name:'Samsung',
@@ -12,16 +13,17 @@ export default function Home() {
   },
   {
     price:1000,
-    name:'Samsung J6 Plust',
+    name:'Samsung J6 Plus',
     color:'Blue',
     qunatity:0
   }
 ]
   return (
     <div className='md:container mx-auto aspect-video'>
-      <Navbar/>
-      <ProductList product={Product}/>
-      <Footer/>
+      {/* <Navbar/>
+      <ProductList Productprops={Productobject}/>
+      <Footer/> */}
+      <AuthenticationApp/>
     </div>
   )
 }
