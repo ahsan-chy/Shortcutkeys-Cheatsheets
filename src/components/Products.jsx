@@ -1,6 +1,5 @@
-import React from 'react'
 
-export default function Products({ProductDriling}) {
+ const Products = ({ProductDriling}) => {
  
     return (
         <div>
@@ -22,3 +21,5 @@ export default function Products({ProductDriling}) {
         </div>
     )
 }
+
+export default Products;
