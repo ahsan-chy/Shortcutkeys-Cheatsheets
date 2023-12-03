@@ -1,4 +1,3 @@
-import React from 'react'
 import { getDatabase , ref, set } from 'firebase/database';
 import {app} from '../components/firebase'
 

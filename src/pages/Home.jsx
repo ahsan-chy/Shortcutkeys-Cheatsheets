@@ -1,4 +1,3 @@
-import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer  from '../components/Footer'
 import ProductList from '../components/ProductList'
@@ -20,9 +19,9 @@ export default function Home() {
 ]
   return (
     <div className='md:container mx-auto aspect-video'>
-      {/* <Navbar/>
+      <Navbar/>
       <ProductList Productprops={Productobject}/>
-      <Footer/> */}
+      <Footer/>
       <AuthenticationApp/>
     </div>
   )
