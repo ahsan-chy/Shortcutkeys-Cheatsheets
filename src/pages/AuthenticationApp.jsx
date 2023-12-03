@@ -1,4 +1,3 @@
-import React from 'react'
 import { getDatabase , ref, set } from 'firebase/database';
 import {app} from '../components/firebase'
 
@@ -11,7 +10,6 @@ export default function AuthenticationApp() {
             email: 'email',
             profile_picture : 'imageUrl'
           });
-        
     }
   return (
     <div>

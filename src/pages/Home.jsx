@@ -1,9 +1,9 @@
-import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer  from '../components/Footer'
 import ProductList from '../components/ProductList'
 import AuthenticationApp from './AuthenticationApp'
-export default function Home() {
+
+const Home =() => {
   const Productobject=[
     {
     price:10500,
@@ -20,10 +20,11 @@ export default function Home() {
 ]
   return (
     <div className='md:container mx-auto aspect-video'>
-      {/* <Navbar/>
+      <Navbar/>
       <ProductList Productprops={Productobject}/>
-      <Footer/> */}
+      <Footer/>
       <AuthenticationApp/>
     </div>
   )
 }
+export default  Home;
