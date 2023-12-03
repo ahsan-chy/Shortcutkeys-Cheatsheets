@@ -10,7 +10,6 @@ export default function AuthenticationApp() {
             email: 'email',
             profile_picture : 'imageUrl'
           });
-        
     }
   return (
     <div>
