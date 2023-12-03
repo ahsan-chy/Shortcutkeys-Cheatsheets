@@ -2,7 +2,8 @@ import Navbar from '../components/Navbar'
 import Footer  from '../components/Footer'
 import ProductList from '../components/ProductList'
 import AuthenticationApp from './AuthenticationApp'
-export default function Home() {
+
+const Home =() => {
   const Productobject=[
     {
     price:10500,
@@ -26,3 +27,4 @@ export default function Home() {
     </div>
   )
 }
+export default  Home;

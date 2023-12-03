@@ -1,6 +1,6 @@
 import Products from "./Products";
 
-function ProductList({ Productprops }) {
+const ProductList = ({ Productprops }) => {
   return Productprops.map((Parmeterproduct, index) => {
     return <Products key={index} ProductDriling={Parmeterproduct} />;
   });
