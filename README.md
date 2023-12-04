@@ -1,4 +1,3 @@
-
 ### [Live Demo](https://shortcut-keys.netlify.app)
 
 # Keyboard Shortcuts
