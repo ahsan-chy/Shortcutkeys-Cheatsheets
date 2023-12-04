@@ -1,6 +1,6 @@
 import "./App.css";
 import Home from "./pages/Home";
-import { Routes, Route, BrowserRouter as Router, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import Login from "./pages/Login";
 import Features from "./pages/Features";
 import ContactUs from "./pages/ContactUs";
@@ -11,7 +11,7 @@ import Page404 from "./pages/Page404";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -23,7 +23,7 @@ function App() {
    
     
     <Footer/>
-    </BrowserRouter>
+    </Router>
   );
 }
 

@@ -1,6 +1,6 @@
 const Features = () => {
     return (
-     <div></div>
+     <div>Features page</div>
     )
   }
   
