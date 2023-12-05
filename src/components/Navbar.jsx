@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <nav className="flex items-center justify-between flex-wrap bg-[#011B39] p-6">
+      <nav className="flex items-center justify-between flex-wrap bg-[#004B50] p-6">
         <div className="flex items-center flex-shrink-0 text-white mr-6">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +20,7 @@ const Navbar = () => {
           <span className="font-semibold text-xl tracking-tight ms-2">Cheatsheets</span>
         </div>
         <div className="block lg:hidden">
-          <button className="flex items-center px-3 py-2 border rounded text-[#9c8321] border-[#9c8321] hover:text-white hover:border-white">
+          <button className="flex items-center px-3 py-2 border rounded text-[#ffffff] border-[#ffffff] hover:text-white hover:border-white">
             <svg
               className="fill-current h-3 w-3"
               viewBox="0 0 20 20"
@@ -34,29 +34,29 @@ const Navbar = () => {
           <div className="text-sm lg:flex-grow">
             <Link
               to="/"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#9c8321] hover:text-white mr-4">
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#ffffff] hover:text-white mr-4">
               Home
             </Link>
-            <Link
+            {/* <Link
               to="Features"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#9c8321] hover:text-white mr-4">
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#ffffff] hover:text-white mr-4">
               Features
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               to="/*"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#9c8321] hover:text-white mr-4">
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#ffffff] hover:text-white mr-4">
               Contributions
-            </Link>
+            </Link> */}
             <Link
               to="ContactUs"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#9c8321] hover:text-white">
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#ffffff] hover:text-white">
               Contact Us
             </Link>
           </div>
           <div>
             <Link
               to="Login"
-              className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-[#9c8321] hover:bg-white mt-4 lg:mt-0">
+              className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white  mt-4 lg:mt-0">
               Login
             </Link>
           </div>

@@ -1,14 +1,12 @@
 const ContactUs = () => {
   return (
     <div>
-      const ContactUs = () =&gt; {"{"}
-      return (
       <div>
         <div className="container my-24 mx-auto md:px-6">
           <section className="mb-32">
             <div className="flex justify-center">
               <div className="text-center md:max-w-xl lg:max-w-3xl">
-                <h2 className="mb-12 px-6 text-3xl font-bold">Contact us</h2>
+                <h2 className="mb-12 px-6 text-3xl font-bold text-[#212B36]">Contact us</h2>
               </div>
             </div>
             <div className="flex flex-wrap">
@@ -16,12 +14,12 @@ const ContactUs = () => {
                 <form>
                   <div className="relative mb-6">
                     <label
-                      className="block text-gray-700 text-sm font-bold mb-2"
+                      className="block text-[#212B36] text-sm font-bold mb-2"
                       htmlFor="username">
                       Name
                     </label>
                     <input
-                      className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                      className="shadow appearance-none border rounded w-full py-2 px-3 text-[#212B36] leading-tight focus:outline-none focus:shadow-outline"
                       id="username"
                       type="text"
                       placeholder="Name"
@@ -29,12 +27,12 @@ const ContactUs = () => {
                   </div>
                   <div className="relative mb-6">
                     <label
-                      className="block text-gray-700 text-sm font-bold mb-2"
+                      className="block text-[#212B36] text-sm font-bold mb-2"
                       htmlFor="username">
                       Email
                     </label>
                     <input
-                      className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                      className="shadow appearance-none border rounded w-full py-2 px-3 text-[#212B36] leading-tight focus:outline-none focus:shadow-outline"
                       id="username"
                       type="text"
                       placeholder="Email"
@@ -42,12 +40,12 @@ const ContactUs = () => {
                   </div>
                   <div className="relative mb-6">
                     <label
-                      className="block text-gray-700 text-sm font-bold mb-2"
+                      className="block text-[#212B36] text-sm font-bold mb-2"
                       htmlFor="username">
                       Message
                     </label>
                     <textarea
-                      className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                      className="shadow appearance-none border rounded w-full py-2 px-3 text-[#212B36] leading-tight focus:outline-none focus:shadow-outline"
                       id="username"
                       type="text"
                       placeholder="Message"
@@ -64,7 +62,7 @@ const ContactUs = () => {
                     type="button"
                     data-te-ripple-init
                     data-te-ripple-color="light"
-                    className="mb-6 inline-block w-full rounded bg-[#9c8321] px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-[#9c8321]y-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-[#9c8321]y-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-[#9c8321]y-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">
+                    className="mb-6 inline-block w-full rounded bg-[#004B50] px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white  ">
                     Send
                   </button>
                 </form>
@@ -74,7 +72,7 @@ const ContactUs = () => {
                   <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
                     <div className="flex items-start">
                       <div className="shrink-0">
-                        <div className="inline-block rounded-md bg-[#9c8321b3] p-4 text-[white]">
+                        <div className="inline-block rounded-md bg-[#55DD98] p-4 text-[white]">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
@@ -91,7 +89,7 @@ const ContactUs = () => {
                         </div>
                       </div>
                       <div className="ml-6 grow">
-                        <p className="mb-2 font-bold dark:text-white">Technical support</p>
+                        <p className="mb-2 font-bold text-[#212B36]">Technical support</p>
                         <p className="text-neutral-500 dark:text-neutral-200">
                           support@example.com
                         </p>
@@ -102,7 +100,7 @@ const ContactUs = () => {
                   <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
                     <div className="flex items-start">
                       <div className="shrink-0">
-                        <div className="inline-block rounded-md bg-[#9c8321b3] p-4 text-[white]">
+                        <div className="inline-block rounded-md bg-[#55DD98] p-4 text-[white]">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
@@ -119,7 +117,7 @@ const ContactUs = () => {
                         </div>
                       </div>
                       <div className="ml-6 grow">
-                        <p className="mb-2 font-bold dark:text-white">Sales questions</p>
+                        <p className="mb-2 font-bold text-[#212B36]">Sales questions</p>
                         <p className="text-neutral-500 dark:text-neutral-200">sales@example.com</p>
                         <p className="text-neutral-500 dark:text-neutral-200">+1 234-567-89</p>
                       </div>
@@ -128,7 +126,7 @@ const ContactUs = () => {
                   <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
                     <div className="align-start flex">
                       <div className="shrink-0">
-                        <div className="inline-block rounded-md bg-[#9c8321b3] p-4 text-[white]">
+                        <div className="inline-block rounded-md bg-[#55DD98] p-4 text-[white]">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
@@ -145,7 +143,7 @@ const ContactUs = () => {
                         </div>
                       </div>
                       <div className="ml-6 grow">
-                        <p className="mb-2 font-bold dark:text-white">Press</p>
+                        <p className="mb-2 font-bold text-[#212B36]">Press</p>
                         <p className="text-neutral-500 dark:text-neutral-200">press@example.com</p>
                         <p className="text-neutral-500 dark:text-neutral-200">+1 234-567-89</p>
                       </div>
@@ -154,7 +152,7 @@ const ContactUs = () => {
                   <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
                     <div className="align-start flex">
                       <div className="shrink-0">
-                        <div className="inline-block rounded-md bg-[#9c8321b3] p-4 text-[white]">
+                        <div className="inline-block rounded-md bg-[#55DD98] p-4 text-[white]">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
@@ -171,7 +169,7 @@ const ContactUs = () => {
                         </div>
                       </div>
                       <div className="ml-6 grow">
-                        <p className="mb-2 font-bold dark:text-white">Bug report</p>
+                        <p className="mb-2 font-bold text-[#212B36]">Bug report</p>
                         <p className="text-neutral-500 dark:text-neutral-200">bugs@example.com</p>
                         <p className="text-neutral-500 dark:text-neutral-200">+1 234-567-89</p>
                       </div>
