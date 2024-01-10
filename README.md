@@ -90,6 +90,10 @@ Every Programmer Should know these windows shortcuts. These Will increase your c
     - To Manage Multiple screens
 
 
+17. **Alt + Space**
+    - Instant Search anything
+
+
 
 
 
@@ -166,6 +170,18 @@ Reload
 11. **Ctrl + 1,3,4,7,8**
 
 Go To Specific Tab. 
+
+
+12. **Ctrl + Shift + A**
+
+Search Chrome Tab. 
+
+13. **Shift + Scroll**
+
+Scroll Horizontally. 
+
+
+
 
 
 
