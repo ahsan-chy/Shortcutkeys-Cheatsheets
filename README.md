@@ -1,4 +1,5 @@
-### [Live Demo](https://shortcut-keys.netlify.app)
+### [Live Demo](https://short-cuts.netlify.app)
+
 
 # Keyboard Shortcuts
 
