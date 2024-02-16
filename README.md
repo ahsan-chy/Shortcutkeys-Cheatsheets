@@ -181,6 +181,18 @@ Search Chrome Tab.
 Scroll Horizontally. 
 
 
+## VS Code Settings & Shortcuts
+
+Table of content
+
+- Settings
+- Extentions
+- Shortcut keys
+
+### Shortcut keys
+
+- **Ctrl + Shift + p** Commond palette
+   - Write **`Screen Cast Mode`** 
 
 
 
